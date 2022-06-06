@@ -1,0 +1,71 @@
+
+*{
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(107, 107, 107);
+}
+
+
+#app{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.block-btn{
+    position: relative;
+    right: 35vw;
+    top: 8em;
+}
+
+p{
+    position: relative;
+    top: 15vw;
+    font-size: 2vw;
+}
+
+.msg{
+    position: relative;
+    left: 1em;
+    top: 10em;
+}
+
+.reset{
+    position: relative;
+    top:200px
+}
+
+
+@media (max-width: 624px){
+    .block-btn
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        left: 10px;
+    }
+
+    .reset{
+        align-items: center;
+        left: 10px;
+    }
+
+    p{
+        position: relative;
+        top: 20vw;
+        font-size: 4vw;
+        text-align: center;
+    } 
+    .msg{
+        position: relative;
+        text-align: center;
+    }  
+}
+
+
+
+
