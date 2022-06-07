@@ -95,7 +95,4 @@ const app = new Vue({
             }
         },
     },
-    mounted () {
-        this.papel()
-      }
 })
